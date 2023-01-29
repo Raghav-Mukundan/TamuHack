@@ -1,37 +1,54 @@
-<h1>diagnosis.ai</h1>
+<style>
+body {background-color: powderblue;}
+body {
+  border: 5px solid black;
+  padding: 10px;
+}
+#textbox{
+    height:45px;
+    font-size:14pt;
+}
+</style>
+<body>
 
+<h1 style="font-size:350%;text-align:center;"> Diagnosis AI </h1>
+
+<div style="font-size:300%;">
 <form action="calculate" method="post">
     <label> Pregnancies </label>
-    <input type="number" name="Pregnancies" value="" required>
+    <input id="textbox" type="number" name="Pregnancies" value="" required>
     <br>
 
     <label> Glucose </label>
-    <input type="number" name="Glucose" value="" required>
+    <input id="textbox" type="number" name="Glucose" value="" required>
     <br>
 
-    <label> BloodPressure </label>
-    <input type="number" name="BloodPressure" value="" required>
+    <label> Blood Pressure </label>
+    <input id="textbox" type="number" name="BloodPressure" value="" required>
     <br>
 
-    <label> SkinThickness </label>
-    <input type="number" name="SkinThickness" value="" required>
+    <label> Skin Thickness </label>
+    <input id="textbox" type="number" name="SkinThickness" value="" required>
     <br>
 
     <label> Insulin </label>
-    <input type="number" name="Insulin" value="" required>
+    <input id="textbox" type="number" name="Insulin" value="" required>
     <br>
 
     <label> BMI </label>
-    <input type="number" name="BMI" value="" required>
+    <input id="textbox" type="number" name="BMI" value="" required>
     <br>
 
-    <label> DiabetesPedigreeFunction </label>
-    <input type="number" step="0.01" name="DiabetesPedigreeFunction" value="" required>
+    <label> Diabetes Pedigree Function </label>
+    <input id="textbox" type="number" step="0.01" name="DiabetesPedigreeFunction" value="" required>
     <br>
 
-    <label> Age           </label>
-    <input type="number" name="Age" value="" required>
+    <label> Age</label>
+    <input id="textbox" type="number" name="Age" value="" required>
     <br>
 
-    <input type="submit" value="Calculate">
+    <label style="color: powderblue; font-size:0%"> Age</label>
+    <input id="textbox" type="submit" value="Calculate">
 </form>
+</div>
+</body>
