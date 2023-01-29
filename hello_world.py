@@ -78,9 +78,16 @@ def calculate():
         try:
             response = urllib.request.urlopen(req)
 
-            result = response.read()
-            #.print(result)
-            return result
+            result = json.load(response)
+            remove_results = str(result['Results'])
+            diagnosis = remove_results[46:49]
+            diagnosis_decision = False
+            if (diagnosis == '1.0'):
+                diagnosis_decision = True
+            diagnosis_probability = str(float(remove_results[66:72]) * 100) + '%'
+            #print(diagnosis_decision, diagnosis_probability)
+            #return (diagnosis_decision, diagnosis_probability)
+            return render_template("result.html", decision= diagnosis_decision, probability= diagnosis_probability)
         except urllib.error.HTTPError as error:
             print("The request failed with status code: " + str(error.code))
 

@@ -1,0 +1,25 @@
+<style>
+body {background-color: powderblue;}
+body {
+  border: 5px solid black;
+  padding: 10px;
+}
+#textbox{
+    height:45px;
+    font-size:14pt;
+}
+</style>
+<body>
+
+<h1 style="font-size:350%;text-align:center;"> Diagnosis AI </h1>
+
+<div style="font-size:300%;">
+    <h1>Results</h1>
+    <p> Have diabetes: {{decision}}
+        Probability: {{probability}}
+
+        Note: The closer the probabilty is to 50%, the higher the chance is that the prediction is a close call!
+    </p>
+
+</div>
+</body>

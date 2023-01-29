@@ -1,0 +1,34 @@
+    <label> Pregnancies </label>
+    <input id="textbox" type="number" name="Pregnancies" value="" required>
+    <br>
+
+    <label> Glucose </label>
+    <input id="textbox" type="number" name="Glucose" value="" required>
+    <br>
+
+    <label> Blood Pressure </label>
+    <input id="textbox" type="number" name="BloodPressure" value="" required>
+    <br>
+
+    <label> Skin Thickness </label>
+    <input id="textbox" type="number" name="SkinThickness" value="" required>
+    <br>
+
+    <label> Insulin </label>
+    <input id="textbox" type="number" name="Insulin" value="" required>
+    <br>
+
+    <label> BMI </label>
+    <input id="textbox" type="number" name="BMI" value="" required>
+    <br>
+
+    <label> Diabetes Pedigree Function </label>
+    <input id="textbox" type="number" step="0.01" name="DiabetesPedigreeFunction" value="" required>
+    <br>
+
+    <label> Age</label>
+    <input id="textbox" type="number" name="Age" value="" required>
+    <br>
+
+    <label style="color: powderblue; font-size:0%"> Age</label>
+    <input id="textbox" type="submit" value="Calculate">
