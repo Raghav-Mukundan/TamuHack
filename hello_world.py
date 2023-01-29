@@ -30,7 +30,7 @@ def calculate():
         skinThickness = request.form['SkinThickness']
         insulin = request.form['Insulin']
         bmi = request.form['BMI']
-        diabetesPedigreeFunction = request.form['DiabetesPedigreeFunction']
+        diabetesPedigreeFunction = float(request.form['DiabetesPedigreeFunction']) / 6.0
         age = request.form['Age']
 
         def allowSelfSignedHttps(allowed):

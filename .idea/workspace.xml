@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="152d1c21-59e2-4300-bba9-2a564123e61a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Templates/result.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Templates/store.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tester.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/result.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hello_world.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello_world.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,16 +63,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/hello_world.py</url>
-          <line>80</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
