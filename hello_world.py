@@ -79,7 +79,7 @@ def calculate():
             response = urllib.request.urlopen(req)
 
             result = response.read()
-            #print(result)
+            #.print(result)
             return result
         except urllib.error.HTTPError as error:
             print("The request failed with status code: " + str(error.code))
